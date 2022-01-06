@@ -2,12 +2,36 @@
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 1fr;
+  /* align-items: center; */
 }
 
+.titulo {
+  grid-column: 2;
+  text-align: center;
+  justify-self: center;
+}
+
+.preco {
+  place-self: center end;
+}
+
+.comprar {
+  align-self: center;
+  text-align: center;
+}
+
+.descricao {
+  text-align: center;
+}
+
+h1 {
+  background: "";
+}
+/*
 .foto {
-  grid-column: 1/ -1; /* expandir daa coluna 1 até a 3, ou 1/-1*/
+  grid-column: 1/ -1; expandir daa coluna 1 até a 3, ou 1/-1
 }
-
+*/
 .descricao {
   grid-column: 1/3;
 }
