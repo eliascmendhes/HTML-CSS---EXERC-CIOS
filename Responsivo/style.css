@@ -1,0 +1,17 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+
+
+p {
+  max-width: 60ch;
+  font-size: 2rem;
+}
